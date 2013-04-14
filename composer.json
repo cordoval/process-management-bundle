@@ -1,0 +1,29 @@
+{
+	"name":	"uecode/process-management-bundle",
+	"version":     "1.0.0",
+	"type":	"library",
+	"description": "Uecode Process Management Bundle",
+	"keywords":    ["php", "uecode"],
+	"homepage":    "https://github.com/uecode/process-management-bundle",
+	"license":     "MIT",
+	"authors":     [
+		{
+			"name":     "Aaron Scherer",
+			"email":    "aequasi@gmail.com",
+			"role":     "developer",
+			"homepage": "https://github.com/aequasi"
+		}
+	],
+	"support":     {
+		"email": "aaron@undergroundelephant.com"
+	},
+	"require":     {
+		"uecode/process-manager": "dev-master",
+		"symfony/symfony": "2.2.*"
+	},
+	"autoload":    {
+		"psr-0": {
+			"Uecode\\Bundle\\ProcessManagementBundle": ""
+		}
+	}
+}
